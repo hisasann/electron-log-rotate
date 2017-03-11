@@ -21,14 +21,14 @@ By default it writes logs to the following locations:
  * **on Windows:** `$HOME/AppData/Roaming/<app name>/log.log`
 
 
- ## Installation
+## Installation
 
  Install with [npm](https://npmjs.org/package/electron-log-rotate):
 
      npm install electron-log-rotate
 
 
- ## Usage
+## Usage
  
  ```js
  var log = require('electron-log-rotate');
@@ -38,10 +38,10 @@ By default it writes logs to the following locations:
  ```
 
 
- ## Maintainers
+## Maintainers
 
  - [hisasann](https://github.com/hisasann)
 
- ## License
+## License
 
  MIT © [hisasann](https://github.com/hisasann)
