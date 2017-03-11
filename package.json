@@ -1,12 +1,24 @@
 {
   "name": "electron-log-rotate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple log rotate module for electron",
   "main": "lib/index.js",
   "scripts": {
     "test": "node test/index.js"
   },
-  "author": "hisasann",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hisasann/electron-log-rotate"
+  },
+  "author": {
+    "name": "hisasann",
+    "email": "hisasann25@gmail.com",
+    "url": "https://github.com/hisasann"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.team-lab.local/frontend-team/teamlab-camera-signage-frontend/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.14.1",

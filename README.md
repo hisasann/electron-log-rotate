@@ -1,6 +1,9 @@
 :lipstick: electron-log-rotate :lipstick:
 ===============
 
+[![npm version](https://badge.fury.io/js/electron-log-rotate.svg)](https://badge.fury.io/js/electron-log-rotate)
+
+
 ## Description
 
 inspire:
@@ -16,7 +19,15 @@ By default it writes logs to the following locations:
  * **on Linux:** `~/.config/<app name>/log.log`
  * **on OS X:** `~/Library/Logs/<app name>/log.log`
  * **on Windows:** `$HOME/AppData/Roaming/<app name>/log.log`
- 
+
+
+ ## Installation
+
+ Install with [npm](https://npmjs.org/package/electron-log-rotate):
+
+     npm install electron-log-rotate
+
+
  ## Usage
  
  ```js
@@ -25,3 +36,12 @@ By default it writes logs to the following locations:
 
  log.log('Hello, log');
  ```
+
+
+ ## Maintainers
+
+ - [hisasann](https://github.com/hisasann)
+
+ ## License
+
+ MIT © [hisasann](https://github.com/hisasann)
