@@ -1,6 +1,6 @@
 {
   "name": "electron-log-rotate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple log rotate module for electron",
   "main": "lib/index.js",
   "scripts": {
@@ -19,7 +19,6 @@
   "bugs": {
     "url": "http://github.team-lab.local/frontend-team/teamlab-camera-signage-frontend/issues"
   },
-  "license": "MIT",
   "dependencies": {
     "lodash": "^4.14.1",
     "moment": "^2.14.1"
