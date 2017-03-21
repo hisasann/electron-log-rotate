@@ -30,6 +30,7 @@ By default it writes logs to the following locations:
 or
 
  Yarn
+
     yarn add electron-log-rotate
 
 ## Usage
