@@ -25,8 +25,12 @@ By default it writes logs to the following locations:
 
  Install with [npm](https://npmjs.org/package/electron-log-rotate):
 
-     npm install electron-log-rotate
+    npm install electron-log-rotate
 
+or
+
+ Yarn
+    yarn add electron-log-rotate
 
 ## Usage
 
