@@ -1,5 +1,12 @@
-const log = require('../lib/index');
-const pkg = require('../package.json');
-log.appName = pkg.name;
+import log from '../lib/index';
 
-log.log('test');
+const pkg = require('../package.json');
+
+log.setup({
+  appName: pkg.name + '-test',
+  maxSize: 10 * 1024 * 1024
+});
+
+setInterval(() => {
+  log.log('test');
+}, 3000);
