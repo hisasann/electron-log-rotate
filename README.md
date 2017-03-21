@@ -33,6 +33,7 @@ By default it writes logs to the following locations:
  ```js
  var log = require('electron-log-rotate');
  log.appName = 'project-name';  // require for directory name
+ log.maxSize = 10 * 1024 * 1024;
 
  log.log('Hello, log');
  ```
