@@ -12,8 +12,5 @@ function setup(options) {
   logMaxSize = options.maxSize;
 }
 
-export default {
-  log,
-  setup
-};
+export { log, setup };
 

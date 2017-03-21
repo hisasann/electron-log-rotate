@@ -1,12 +1,19 @@
-import log from '../lib/index';
+import { log, setup } from '../lib/index';
 
 const pkg = require('../package.json');
 
-log.setup({
+setup({
   appName: pkg.name + '-test',
   maxSize: 10 * 1024 * 1024
 });
 
-setInterval(() => {
-  log.log('test');
-}, 3000);
+log('test ES');
+
+
+const logCJS = require('../lib/index');
+logCJS.setup({
+  appName: pkg.name + '-test',
+  maxSize: 10 * 1024 * 1024
+});
+
+logCJS.log('test CJS');
