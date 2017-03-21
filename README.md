@@ -39,7 +39,7 @@ By default it writes logs to the following locations:
    maxSize = 10 * 1024 * 1024
  });
 
- log.log('Hello, log');
+ log('Hello, log');
  ```
 
 ### CommonJS
