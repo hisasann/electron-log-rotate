@@ -199,3 +199,7 @@ node_modules
 .DS_Store
 
 # App packaged
+
+es
+umd
+lib
