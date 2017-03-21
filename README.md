@@ -39,7 +39,7 @@ or
  
  ```js
  import { setup, log } from 'electron-log-rotate';
- log.setup({
+ setup({
    appName: 'project-name',  // require for directory name
    maxSize = 10 * 1024 * 1024
  });
