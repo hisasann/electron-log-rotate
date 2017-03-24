@@ -33,6 +33,7 @@ or
 
     yarn add electron-log-rotate
 
+
 ## Usage
 
 ### ES2015
@@ -57,6 +58,20 @@ or
  });
 
  log.log('Hello, log');
+ ```
+
+
+## About deleting log files
+
+For this sample, log files before 10 days ago will be deleted.
+
+ ```js
+ import { setup, deleteLog } from 'electron-log-rotate';
+ setup({
+   appName: 'project-name'  // require for directory name
+ });
+
+ deleteLog(10);
  ```
 
 

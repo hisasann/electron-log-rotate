@@ -2,7 +2,7 @@ import os from 'os';
 import fs from 'fs';
 import getNowDate from './get-now-date';
 import getNowTime from './get-now-time';
-import findLogPath from './find-log-path';
+import findLogFileName from './find-log-file-name';
 
 let file;
 let stream;
@@ -14,7 +14,7 @@ export default function (msg, appName, maxSize) {
   date = dateDetermination(date);
 
   if (!stream) {
-    file = file || findLogPath(appName, date);
+    file = file || findLogFileName(appName, date);
     if (!file) {
       // error
       return;
