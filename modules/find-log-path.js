@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-export default function (appName = '', date) {
+export default function (appName = '') {
   let dir;
   switch (process.platform) {
     case 'linux':
@@ -24,7 +24,7 @@ export default function (appName = '', date) {
       break;
   }
 
-  return [dir, '/', date, '_', 'log.log'].join('');
+  return [dir, '/'].join('');
 }
 
 function prepareDir(path, appName) {
