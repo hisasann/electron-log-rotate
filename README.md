@@ -42,7 +42,7 @@ or
  import { setup, log } from 'electron-log-rotate';
  setup({
    appName: 'project-name',  // require for directory name
-   maxSize = 10 * 1024 * 1024
+   maxSize: 10 * 1024 * 1024
  });
 
  log('Hello, log');
@@ -54,7 +54,7 @@ or
  var log = require('electron-log-rotate');
  log.setup({
    appName: 'project-name',  // require for directory name
-   maxSize = 10 * 1024 * 1024
+   maxSize: 10 * 1024 * 1024
  });
 
  log.log('Hello, log');
