@@ -1,3 +1,6 @@
+# This repository has been moved to:
+## <https://github.com/lemon-sour/node-log-rotate>
+
 :lipstick: electron-log-rotate :lipstick:
 ===============
 
